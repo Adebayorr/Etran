@@ -7,33 +7,118 @@
     font-family: "Manrope", sans-serif;
 }
 
+
 body {
     background-color: #394508;
 }
 
 .header {
     background: #394508;
-    padding: 24px 60px;
+    padding: 1.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    text-decoration: none;
-}
 
 .logo--image {
-    width: 8rem;
+    width: 6rem;
 }
 
 .header_cta, .cta_btn {
     border: none;
-    padding: 12px 16px;
+    padding: 0.66rem 1rem;
     background-color: #D2FD9C;
-    border-radius: 4px;
+    border-radius: 0.33rem;
     cursor: pointer;
 }
+
+.hero {
+    padding: 1.4rem;
+    background: #394508;
+    color: #ffffff;
+}
+
+.hero-title {
+    width: 64%;
+    font-weight: 400;
+    font-size: 2.66remx;
+    letter-spacing: -2%;
+    line-height: 110.8%;
+    margin-bottom: 1.66rem;
+    text-transform: capitalize;
+}
+
+.hero-title--marked {
+    color: #D2FD9C;
+}
+
+.hero_subtitle {
+    width: 80%;
+    font-weight: 400;
+}
+
+.offerings {
+    padding: 0.7rem 1.4rem;
+    color: #D2FD9C;
+    position: relative;
+}
+
+.offerings-text {
+    margin-bottom: 1.66rem;
+}
+
+.offerings_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3.2rem;
+}  
+
+.offerings_item {
+    background: #619111;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7rem 1.4rem;
+    color: black;
+    border-radius: 0.3rem;
+}
+
+.offering_item--image {
+    width: 36px;
+    margin-bottom: 16px;
+}
+
+.offering_item--name {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.offering_floating {
+    display: flex;
+}
+
+.offering_floating--links {
+    color: #D2FD9C;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+
+/* Reset Image: Delete later */
+
+img {
+    width: 4rem;
+}
+
+/* 
+
 
 .hero {
     padding: 50px 60px 24px 60px;
@@ -96,8 +181,6 @@ body {
 }
 
 .offering_floating {
-    /* position: absolute;
-    bottom: 0; */
     display: flex;
 }
 
@@ -129,6 +212,7 @@ body {
 
 .partners {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0 120px;
@@ -185,7 +269,6 @@ h5.getmore_card--image {
     display: inline;
     text-align: center;
     margin-bottom: 16px;
-    line-height: 200%;
 }
 
 img.getmore_card--image {
@@ -221,7 +304,6 @@ img.getmore_card--image {
 }
 
 .promo_desc {
-    /* font-size: 0.9rem; */
     color: #5d5d5d;
 }
 
@@ -251,7 +333,6 @@ img.getmore_card--image {
 .firstclass_card--container {
     width: 23%;
     text-align: center;
-    /* color: #394508; */
 }
 
 .firstclass_card {
@@ -304,12 +385,10 @@ img.getmore_card--image {
 }
 
 .etran_Logo {
-    /* align-self: flex-start; */
     width: 3rem;
 }
 
 .etran_text {
-    /* align-self: flex-end; */
     width: 5rem;
 }
 
@@ -318,9 +397,7 @@ img.getmore_card--image {
     display: block;
 }
 
-/* .footer_socials {
-    display: flex;
-} */
+
 
 .footer_contact {
     margin-bottom: 8px;
@@ -336,4 +413,4 @@ img.getmore_card--image {
     color: #5d5d5d;
 }
 
-
+ */
