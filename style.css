@@ -65,7 +65,7 @@ body {
 }
 
 .offerings-text {
-    margin-bottom: 1.66rem;
+    margin-bottom: 1.33rem;
 }
 
 .offerings_items {
@@ -90,7 +90,7 @@ body {
 
 .offering_item--image {
     width: 36px;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .offering_item--name {
@@ -110,6 +110,127 @@ body {
     font-size: 0.8rem;
 }
 
+.white {
+    background: #ffffff;
+    margin: 1rem 0px 0px 0px;
+    padding: 1.64em;
+    width: 100%;
+}
+
+.banner_image {
+    width: 100%;
+}
+
+.banner_heading {
+    width: 80%;
+    margin: 2.4rem auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1.4rem;
+    gap: 1.4rem;
+}
+
+.partner {
+    width: 26%;
+}
+
+.getmore {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.promo_title, .getmore_title, .firstclass_title {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: #394508;
+    text-align: center;
+}
+
+.getmore_desc {
+    width: 100%;
+    margin: 0 auto;
+    color: #394508;
+    font-size: 0.6rem;
+}
+
+.getmore_cards {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 20px;
+}
+
+.getmore_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D2FD9C;
+    padding: 48px 0;
+    border-radius: 10px;
+}
+
+h5.getmore_card--image {
+    font-size: 72px;
+    font-weight: 400;
+    display: inline;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+img.getmore_card--image {
+    width: 30%;
+    margin-bottom: 24px;
+}
+
+.getmore_card--desc {
+    text-transform: capitalize;
+}
+
+.promo_cards {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promo_card {
+    width: 100%;
+}
+
+.promo_image {
+    width: 100%;
+}
+
+.promo_card--title {
+    text-transform: capitalize;
+    color: #0e0e0e;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.promo_desc {
+    color: #5d5d5d;
+    font-size: 0.6rem;
+}
+
+.promo_banner--image {
+    width: 100%;
+    margin: 24px 0;
+}
 
 /* Reset Image: Delete later */
 
